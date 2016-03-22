@@ -68,11 +68,10 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-
-  <preference name="android-build-tool" value="gradle" />
-  <plugin name="phonegap-plugin-push" source="npm">
+<preference name="android-build-tool" value="ant" />
+   <plugin name="phonegap-plugin-push" source="npm">
       <param name="SENDER_ID" value="492320920698" />
   </plugin>
-
+ 
   <allow-navigation href="*"/>
 </widget>
